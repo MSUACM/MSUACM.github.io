@@ -13,7 +13,7 @@ Github pages really is. The following `README.md` will contain the technologies 
 #### Color Guide to Page ####
 
 Color | Hex
-------|------
+------|------  
       |
       | 
       | 
