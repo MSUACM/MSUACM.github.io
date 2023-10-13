@@ -64,5 +64,15 @@
     - `Prettier - Code Formatter`
 
 ## VSCode & Github Workflow: 
+### Github Cloning/Pushing 
+- After downloading the `Github Pull Requests and Issues` extension. Go to the `person icon` at the bottom left and login to your `Github Account`. 
+- In a new window we can click  the `Clong Git Repository...` (assuming a repository is already created) button or press `ctrl+shift+p` and follow the prompts and look for your repository. 
+- Assuming we have created a folder structure on the left in your repository or workspace like so. <img src="/images/folder_files.png" height="300" width="300"></img>
+- We would then save the document `ctrl+s` when changes are made.
+- On the left side of VSCode you will see an icon like this <img src="/images/sources.png" height="40" width="40"> this is called `source control`. 
+- Click on the icon and if there are changes the amount is counted. 
+- You will have to type in a message to make changes. <img src="/images/commit.png" height="300" width="300"></img>
+- Click `commit`.
 - 
+
 
