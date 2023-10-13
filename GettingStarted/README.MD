@@ -42,4 +42,27 @@
 - You can use the Git clone command in Git Bash to clone this or in VScode you can click the `Clone Git Repository...` link on the front page. Or press the `ctrl+shift+p` and click `Git:Clone` and follow the prompts. 
 
 # Visual Studio Code
-        
+
+## Installation: 
+- Install VSCode: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+- Download!
+## Extensions: 
+- When adding extensions we go on the left navbar to this <img src="/images/extensions.png" height="40" width="40"></img> <- click this button.
+- Go to the search bar at the top: 
+    - `Github Pull Requests and Issues`
+    - `Live Server`
+    - `StyleLynt-Plus`
+    - `CMake` 
+    - `CmakeTools`
+    - `Color Highlight`
+    - `EJS Language Support` 
+    - `EsLynt`
+    - `HTML CSS Support`
+    #### Optional Extensions: 
+    - `Auto Close Tag`
+    - `HTML Boiler Plate`
+    - `Prettier - Code Formatter`
+
+## VSCode & Github Workflow: 
+- 
+
