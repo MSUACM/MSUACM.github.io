@@ -73,6 +73,7 @@
 - Click on the icon and if there are changes the amount is counted. 
 - You will have to type in a message to make changes. <img src="/images/commit.png" height="300" width="300"></img>
 - Click `commit`.
-- 
+- Click `Sync Changes`. You made your first commit!
+
 
 
