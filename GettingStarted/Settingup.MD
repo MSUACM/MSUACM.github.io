@@ -19,7 +19,7 @@
         - These are all example commands you frequently use if you choose to use Git Bash for changes. 
             - `git init //create a repository`
             - `git clone <repository_url> //clones a repository`
-    - `Git status //checks status`
+            - `Git status //checking status`
             - `git add . //adds changes`
             - `git commit -m "Your commit message //commit message`
             - `git push origin <branch_name> //pushing to branch`
