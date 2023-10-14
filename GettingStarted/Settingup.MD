@@ -66,7 +66,7 @@
 ## VSCode & Github Workflow: 
 ### Github Cloning/Pushing 
 - After downloading the `Github Pull Requests and Issues` extension. Go to the `person icon` at the bottom left and login to your `Github Account`. 
-- In a new window we can click  the `Clong Git Repository...` (assuming a repository is already created) button or press `ctrl+shift+p` and follow the prompts and look for your repository. 
+- In a new window we can click  the `Clone Git Repository...` (assuming a repository is already created) button or press `ctrl+shift+p` and follow the prompts and look for your repository. 
 - Assuming we have created a folder structure on the left in your repository or workspace like so. 
 
 <img src="/images/folder_files.png" height="200" width="200"></img>
