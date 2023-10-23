@@ -48,18 +48,17 @@ Making a Basic HTML Template:
 I had you download earlier.
 
 ```
-<!-- This is what commenting looks like in HMTL -->
-<!DOCTYPE html>   //tells the browser what document it is receiving
-<html lang="en">  //what language the doc is in 
-<head>      //focuses on the name of the tab at the top and document resources
-    <meta charset="UTF-8"> //tells us what unicode standard we will use
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body> //The actual content of the page is in the body 
-    
-</body>
-</html> //ending tag for the html document
+    <!-- This is what commenting looks like in HMTL -->
+    <!DOCTYPE html>           //tells the browser what document it's receiving
+    <html lang="en">           //what language the doc is in 
+    <head>                     //focuses on the name of the tab at the top and document resources
+        <meta charset="UTF-8"> //tells us what unicode standard we will use
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>   //Holds content
+    </body>
+    </html> //ending tag for the html document
 ```
 
 3. Types of tags we can use in HTML
