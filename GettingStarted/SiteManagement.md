@@ -41,7 +41,7 @@ Making a Basic HTML Template:
 1. Make a file under your working folder: 
     - `right click` -> `new file`
     or 
-    - Hover over the main folder and click the <img src="newfile.png" height="40" width="40"></img>
+    - Hover over the main folder and click the <img src="newfile.png" height="40" width="40">
     - Naming convention for home page is `index.html` (this is what we will name our file)
 2. Creating Structure 
 - Here is a basic HTML structure. We can easily do this with the extension 
