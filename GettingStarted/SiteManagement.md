@@ -50,14 +50,14 @@ I had you download earlier.
 ```
     <!-- This is what commenting looks like in HMTL -->
     <!DOCTYPE html>           //tells the browser what document it's receiving
-    <html lang="en">           //what language the doc is in 
+        <html lang="en">           //what language the doc is in 
     <head>                     //focuses on the name of the tab at the top and document resources
         <meta charset="UTF-8"> //tells us what unicode standard we will use
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
     </head>
-    <body>   //Holds content
-    </body>
+        <body>   //Holds content
+        </body>
     </html> //ending tag for the html document
 ```
 
