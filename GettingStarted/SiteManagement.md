@@ -108,3 +108,42 @@ I had you download earlier.
     
     //Note: The syntax is the same, it is just convention to use in the proper context. 
     ```
+- Paragraph: 
+    - `<p>Lorem Ipsum</p>` this will contain entire paragraphs 
+    - We can utilized the earlier text styling tags inside of this.
+
+4. Making Content of Page 
+- Here is an example of some basic content to the page. 
+```
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+
+        <title>MSU ACM Chapter</title>
+    </head>
+    <body> 
+        <!-- Navbar -->
+        <nav>
+            <img></img>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="events.html">Events</a></li>
+            </ul>
+        </nav>
+        <!-- Title -->
+        <h1 id="title-h1">Midwestern State University ACM Chapter</h1>
+        
+    </body>
+</html>  
+```
+- In the provided structure we have made the start to our front page of our ACM "website". 
+- It contains an unordered list inside of a `nav` tag which will be the start of our navbar for now. 
+
+
+
+#### Working w/ CSS 
+The purpose of `CSS (Cascading Style Sheets)` is to add some styling to our HTML pages. `CSS` can do a whole bunch of different things from changing `text fonts/colors/etc`, making `animations`, and `media queries`. 
+
