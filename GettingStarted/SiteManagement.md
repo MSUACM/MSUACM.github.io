@@ -31,3 +31,10 @@ a step by step process on getting your first project hosted.
 5. You are finished in your browser you can just type in your URL as shown below. 
     - `https://yourusername.github.io` 
 Other Resource (If you need it explained different): [https://pages.github.com/](https://pages.github.com/)
+
+### Basics of HTML and CSS
+
+#### Working w/ HMTL
+The purpose of `HTML (Hypertext Markup Language)` is to serve a structure/foundation. We build on top of HTML with other technologies for example CSS and Javascript. 
+
+
