@@ -85,7 +85,6 @@
 - Click `Sync Changes`. You made your first commit!
 
 
-<h1>Hello World!</h1>
 
 
 
