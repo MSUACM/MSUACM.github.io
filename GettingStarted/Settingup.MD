@@ -14,6 +14,8 @@
     git config --global user.name "Your Name"
     git config --global user.email "your.email@example.com"
 ```
+- If you need to know what your username and email are. 
+    - Use this command `git config --list`.
 - There are commands we can use in Git Bash, although for this it is unecessary. 
     - Example Commands: 
         - These are all example commands you frequently use if you choose to use Git Bash for changes. 
