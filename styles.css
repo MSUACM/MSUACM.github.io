@@ -1,5 +1,29 @@
 /*Adding css here*/
 
 * {
-    background: #89CFF3;
+    margin: 0;
+    padding: 0;
+    background:#6B240C;
+}
+
+body{
+    width: 100dvw;
+    height: 100dvh;
+
+}
+
+#logo{
+    height: 10em;
+    margin: 1rem;
+    /* margin-left: 2rem; */
+}
+
+section#hero {
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFB000;
 }
