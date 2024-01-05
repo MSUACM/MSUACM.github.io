@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    background:#6B240C;
+    background:white;
 }
 
 body{
@@ -26,4 +26,96 @@ section#hero {
     justify-content: center;
     text-align: center;
     color: #FFB000;
+}
+
+
+/* Navbar CSS */
+a{
+    float: left;
+    text-decoration: none;
+    color: navy;
+    font-size: 1rem;
+}
+
+
+/* Hover effect for navbar */
+/* .a-hv:hover{
+    color: #fdfd96;
+} */
+
+
+
+header{
+    position: relative;
+    padding: 0 2rem;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+i{
+   padding: 20px;
+   width: 10px;
+   height: 10px;
+}
+
+.navbar a{
+    font-size: 1rem;
+    font-weight:700;
+    margin-top: 2rem;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 4rem;
+    padding: revert;
+}
+
+.h--li {
+    list-style: none;
+    position: relative; /* Add position: relative */
+    cursor: pointer;
+    transition: color 0.3s ease-in-out; /* Add a transition for color change */
+}
+
+ /* .h--li::after { */
+    /* content: ""; */
+    /* position: absolute; */
+    /* padding-top: 1px; */
+    /* bottom: -5px; Adjust the position of the underline */
+    /* right: 0; */
+    /* width: 80%; */
+    /* height: 2px; Adjust the thickness of the underline */
+    /* background-color: #fdfd96; Initial underline color */
+    /* transform-origin: center; */
+    /* transform: scaleX(0); Start with no underline width */
+    /* transition: transform 0.3s ease-in-out; //Add a transition for the underline animation    */
+/* }  */
+
+/* .h--li:hover {
+    color: #fdfd96;
+    animation: slideAnimation 700ms ease-in-out infinite alternate;  Apply the animation 
+} */
+
+/* .h--li:hover::after { */
+    /* transform: scaleX(1); Expand the underline width on hover */
+    /* background-color: #fdfd96; Change the underline color on hover */
+/* } */
+
+/* .about:hover, .hobby:hover, .project:hover { */
+    /* color: #fdfd96; */
+/* } */
+
+.navbar .toggle_btn{
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
 }
