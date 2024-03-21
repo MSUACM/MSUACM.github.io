@@ -146,3 +146,71 @@ I had you download earlier.
 #### Working w/ CSS 
 The purpose of `CSS (Cascading Style Sheets)` is to add some styling to our HTML pages. `CSS` can do a whole bunch of different things from changing `text fonts/colors/etc`, making `animations`, and `media queries`. 
 
+Adding CSS to HTML Pages: 
+
+1. Attaching & Creating CSS File  
+- First we want to add a CSS file. Ex: `filename.css`. 
+- After creating the file you want to attach the file we want to add the styling from `filename.css` too.
+
+We created a link tag that tells the HTML file that said link is a `stylesheet`. Then it references the `styles` file.  
+```
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <link rel="stylesheet" href="styles.css"> //this is what was added
+        <title>MSU ACM Chapter</title>
+    </head>
+</html>  
+```
+
+2. Attaching Styling to HTML Tag's 
+- If we want to be able to add styling to something with CSS
+ we first need to add a `class` or `id` attribute to the appropiate tag . 
+ Note: The `id` attribute takes styling priority over a `class` attribute.  
+- To be able to add styling we need to add a `class`. 
+        Ex: `class="className"`
+- We could also add `id`. 
+        Ex: `id="idName"`
+
+3. CSS Styling Syntax etc. 
+If we want to style something we can style specific tags or the `class` or `id`.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <link rel="stylesheet" href="styles.css"> //this is what was added
+        <title>MSU ACM Chapter</title>
+    </head>
+    <body>
+        <div id="styleThis"> 
+            <div class="styleMe"></div>
+        </div>
+        
+
+    </body>
+</html>  
+```
+- Here is an example of styling a tag. 
+ ```
+     body {
+        height: 100vh; // 100% of the viewport height
+        background-color: #0a192f; 
+        background-size: cover; 
+        background-position: center;
+     }
+ ```
+
+- Targeting a specific class or id 
+ ```
+     #styleThis{
+        //add stlying
+     }
+     .stlyeMe{
+        //add stlying 
+     }
+ ```
